@@ -1,0 +1,14 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name:  <David Yu>
+
+Describe any additional functionality you added to your application, or any
+significant changes you made to the starter code beyond the basic requirements
+of the assignment, below:
+
+I added additional functionality: two buttons: Fix and Unfix.
+Fix is used to keep the map you drew, so that when you click clear in the future, the map still remains to be the moment
+you click "Fix".
+Unfix is the reverse of Fix. When you click "Unfix", those lines which you fixed in the map now go away.
+
