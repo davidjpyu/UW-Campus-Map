@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bases.NaturalTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-04-18T23:51:44" hostname="DaviddeMacBook-Air.local" time="0.952">
+  <properties/>
+  <testcase name="testTimesOneDigit" classname="bases.NaturalTest" time="0.055"/>
+  <testcase name="testLeftShift" classname="bases.NaturalTest" time="0.0"/>
+  <testcase name="testTimes" classname="bases.NaturalTest" time="0.083"/>
+  <testcase name="testPlus" classname="bases.NaturalTest" time="0.077"/>
+  <testcase name="testLeadingDigit" classname="bases.NaturalTest" time="0.0"/>
+  <testcase name="testToString" classname="bases.NaturalTest" time="0.001"/>
+  <testcase name="testConstruction" classname="bases.NaturalTest" time="0.0"/>
+  <testcase name="testPlusTopTwoLoops" classname="bases.NaturalTest" time="0.001"/>
+  <testcase name="testGetDigits" classname="bases.NaturalTest" time="0.0"/>
+  <testcase name="testToBase" classname="bases.NaturalTest" time="0.733"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

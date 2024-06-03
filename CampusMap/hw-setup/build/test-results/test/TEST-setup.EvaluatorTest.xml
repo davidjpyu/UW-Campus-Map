@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="setup.EvaluatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-12T08:54:23" hostname="DaviddeMacBook-Air.local" time="0.004">
+  <properties/>
+  <testcase name="testQuadratic" classname="setup.EvaluatorTest" time="0.003"/>
+  <testcase name="testConstant" classname="setup.EvaluatorTest" time="0.0"/>
+  <testcase name="testQuintic" classname="setup.EvaluatorTest" time="0.001"/>
+  <testcase name="testQuadratic2" classname="setup.EvaluatorTest" time="0.0"/>
+  <testcase name="testLinear" classname="setup.EvaluatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

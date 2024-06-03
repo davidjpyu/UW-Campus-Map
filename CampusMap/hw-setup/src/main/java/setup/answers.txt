@@ -1,0 +1,50 @@
+## CSE 331 hw-setup Questions
+## Part 7: Answering Questions About the Code
+
+1. Why did Fibonacci fail the testThrowsIllegalArgumentException< test? What (if anything) did
+you have to do to fix it? If you did not have to change anything to fix this issue, explain why.
+
+When we want to get the first index of the sequence, where the paremeter should be 0, it goes to the if statement and
+throws IllegalArgumentException. So I change the if condition from n <= 0 to n < 0.
+
+
+2. Why did Fibonacci fail the testBaseCase test? What (if anything) did you have to do to fix
+it? If you did not have to change anything to fix this issue, explain why.
+
+It initially fails because when parameter is 0, it goes to the if statement and throws IllegalArgumentException, whereas
+the expected output should be 1. I did not have to change anything to fix this issue because I already revised if
+condition from n <= 0 to n < 0 from the last question, and therefore it does not go into if statement anymore. Instead,
+it goes to else if statement and correctly return 1.
+
+
+3.Why did Fibonacci fail the testInductiveCase test? What (if anything) did you have to do to
+fix it? If you did not have to change anything to fix this issue, explain why.
+
+It fails because when parameter is 2, which is the third index, it goes to the else-if statement and return 1, whereas
+the expected output should be 2. I change else-if condition from n <= 2 to n < 2, and therefore if n >= 2, it goes to
+the else statement that recursively sums previous two sequence numbers instead of entering else-if statement, which was
+supposed to be the base case.
+
+
+## Part 8: Debugger Tutorial
+
+1. What are the values of "x", "y", and "sum" printed by your statement? Why was x not equal 
+to the first integer entered here, and how could we fix this?
+
+x = 4, y = 4, sum = 0. x is not correct because we divide first input number by 2 and then times 2, where division
+rounds down when it is a decimal, so if 5 is input, 5/2 = 2, and 2*2 = 4, that is why it shows 4 instead of 5. I replace
+this redundant computing with just "int x = console.nextInt()", that is directly use integer input as x.
+
+
+2. What are all the names and values listed in the “Variables” panel? What does the “frames” 
+tab list as the current method and line number? (Write down the text that was highlighted when 
+the Debug perspective first opened.)
+
+x = 3, y = 4
+computeSum:43
+
+
+3. What are all the names and values listed in the “Variables” panel after each of the two step overs?
+
+First step over: x = 3, y = 4
+Second step over: x = 3, y = 4, sum = -1

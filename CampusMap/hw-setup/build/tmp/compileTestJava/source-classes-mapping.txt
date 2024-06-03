@@ -1,0 +1,10 @@
+setup/FinderTest.java
+ setup.FinderTest
+setup/EvaluatorTest.java
+ setup.EvaluatorTest
+setup/FibonacciTest.java
+ setup.FibonacciTest
+setup/RandomHelloTest.java
+ setup.RandomHelloTest
+setup/HolaWorldTest.java
+ setup.HolaWorldTest
