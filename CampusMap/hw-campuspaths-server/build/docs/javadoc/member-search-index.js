@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"campuspaths.utils","c":"CORSFilter","l":"apply()"},{"p":"campuspaths.utils","c":"CORSFilter","l":"CORSFilter()","u":"%3Cinit%3E()"},{"p":"campuspaths","c":"SparkServer","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"campuspaths","c":"SparkServer","l":"SparkServer()","u":"%3Cinit%3E()"}];updateSearchResults();

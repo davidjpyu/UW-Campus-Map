@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"campuspaths.utils","l":"CORSFilter"},{"p":"campuspaths","l":"SparkServer"},{"l":"所有类","u":"allclasses-index.html"}];updateSearchResults();

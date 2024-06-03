@@ -1,0 +1,15 @@
+CSE 331 Homework Answers:
+
+Your Name: David Yu
+
+List any additional features or functionality you implemented
+in your CampusPaths application below. Only things listed here
+will be considered for extra credit.
+
+I add a button that offer option that you can search for another path, which will also show
+in the map, with a different (green) color to mark difference. If two path overlap, to identify
+that overlapping part for user, I choose red color to make overlapping.
+
+I also provide the length of the path(s), which would be empty if no path is selected.
+
+
